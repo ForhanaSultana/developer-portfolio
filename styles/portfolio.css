@@ -84,9 +84,13 @@ main {
     margin: 0 auto;
 }
 
+section {
+    margin-top: 130px;
+}
+
 /* about section styles */
 .about {
-    margin-top: 130px;
+
     background: #FFF8F3;
     border-radius: 10px;
     padding: 131px 156px;
@@ -98,7 +102,7 @@ main {
     font-size: 35px;
     margin-bottom: 30px;
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 
 
 }
@@ -128,7 +132,7 @@ main {
 }
 
 /* what i do styles */
-.what-i-do {
+section {
     margin-top: 130px;
 }
 
@@ -158,4 +162,46 @@ main {
     font-size: 16px;
     color: #757575;
 
+}
+
+/* resume styles */
+.Resume-content {
+    display: flex;
+    gap: 25px;
+}
+
+.resume-item {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.resume-title {
+    color: #474747;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.resume .title {
+    color: #474747;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.resume .sub-title {
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.resume .description {
+    color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.resume-button {
+    margin-top: 50px;
+    text-align: center;
 }
