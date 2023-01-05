@@ -35,7 +35,7 @@
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    padding: 50px 200px;
 }
 
 nav ul {
@@ -222,5 +222,5 @@ section {
 textarea {
     margin-bottom: 24px;
     border: 0;
-    padding:18px 30px;
+    padding: 18px 30px;
 }
