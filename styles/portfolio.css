@@ -60,7 +60,6 @@ nav li {
     font-weight: 700;
     font-size: 85px;
     font-weight: 700;
-    font-size: 85px;
     margin-bottom: 20px;
 }
 
@@ -218,9 +217,17 @@ section {
     text-align: left;
 }
 
-.contact input,
+.contact input[type="text"],
+input[type="email"],
 textarea {
     margin-bottom: 24px;
     border: 0;
     padding: 18px 30px;
+    width: 100%;
+}
+
+.section-description {}
+
+.contact a {
+    text-decoration: none;
 }
